@@ -1,0 +1,16 @@
+{
+  "name": "yrumsg",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "bazel build //...",
+    "test": "bazel test //..."
+  },
+  "devDependencies": {
+    "@bazel/bazelisk": "latest",
+    "@bazel/buildifier": "latest",
+    "@bazel/ibazel": "latest",
+    "@bazel/typescript": "^1.6.1",
+    "typescript": "^3.9.3"
+  },
+  "private": true
+}
